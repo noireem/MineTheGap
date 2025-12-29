@@ -1,0 +1,34 @@
+# --- Core Data Science & Analysis ---
+pandas              # The backbone of data analysis (DataFrames)
+numpy               # Mathematical operations needed for stats
+
+# --- Data Visualization ---
+matplotlib          # Basic plotting
+seaborn             # Statistical data visualization (great for heatmaps)
+plotly              # Interactive charts (essential for your "Modern Essentials" vs "Living Necessities" graphs)
+
+# --- Natural Language Processing (NLP) ---
+# Used for scanning 10-K reports for "Celebration" vs "Depreciation"
+spacy               # Industrial-strength NLP (excellent for extracting entities)
+nltk                # Natural Language Toolkit (good for basic tokenization and sentiment)
+textblob            # A simpler wrapper for sentiment analysis (good for quick prototyping)
+scikit-learn        # Machine learning tools (TF-IDF vectorization, if you want to get fancy)
+
+# --- Web Scraping & Data Extraction ---
+# Used to get the 10-K filings from the web
+requests            # To make network requests to websites
+beautifulsoup4      # To parse HTML from websites
+lxml                # A fast parser used by BeautifulSoup
+sec-edgar-downloader # Specialized tool to easily download 10-K filings from the SEC database
+pdfplumber          # Best tool for extracting tables from the PDF reports you have (Citi/McKinsey)
+
+# --- Statistics ---
+# Used to prove the "Null Hypothesis" and run Regressions
+statsmodels         # The gold standard for statistical modeling (Regression, OLS) in Python
+scipy               # For scientific computing (T-tests, P-values)
+
+# --- Dashboarding ---
+# Used to build your final interactive portfolio piece
+streamlit           # Turns your Python scripts into a shareable web app
+
+

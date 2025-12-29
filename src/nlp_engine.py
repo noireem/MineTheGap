@@ -1,0 +1,1 @@
+## logic behind NLP task of Sentiment Analysis score generation
