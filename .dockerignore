@@ -1,0 +1,15 @@
+#Local Envs
+.env
+.venv
+.venv/
+
+#Git history
+.Git
+.gitignore
+
+#Python cache
+__pycache__/
+*.pyc
+
+#System files
+.DS_Store
