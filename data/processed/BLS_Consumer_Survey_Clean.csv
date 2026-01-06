@@ -1,0 +1,166 @@
+Category: Expenditures
+Subcategory: Total average annual expenditures
+Item: Average annual expenditures
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",47230,1574.76,3.33,827566,9.9
+"2020","Annual",47398,1345.64,2.84,818787,10.2
+"2021","Annual",50592,1455.87,2.88,911424,10.2
+"2022","Annual",58000,1863.54,3.21,1013458,10.4
+"2023","Annual",58167,1743.33,3.00,1046272,10.1
+"2024","Annual",58100,1852.33,3.19,1059028,9.9"
+
+
+
+Category: Expenditures
+Subcategory: Food
+Item: Food
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",5983,307.04,5.13,101163,9.4
+"2020","Annual",5923,411.20,6.94,100219,10.4
+"2021","Annual",6052,299.97,4.96,111746,10.1
+"2022","Annual",7180,374.92,5.22,123927,9.9
+"2023","Annual",7844,350.80,4.47,142234,10.6"
+"2024","Annual",6746,346.61,5.14,124179,9.0
+
+
+Category: Expenditures
+Subcategory: Alcoholic beverages
+Item: Alcoholic beverages
+
+"Year",",Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",213,29.91,14.01,0.5,3626,4.7
+"2020","Annual",226,50.85,22.49,0.5,3829,6.1
+"2021","Annual",212,31.45,14.81,0.4,3905,5.3
+"2022","Annual",354,47.36,13.37,0.6,6161,7.9
+"2023","Annual",290,42.56,14.67,0.5,5254,6.1
+"2024","Annual",277,41.37,14.94,0.5,5090,5.8"
+
+Subcategory: Housing
+Item: Housing
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",17176,463.13,2.70,36.4,302945,11.1
+"2020","Annual",18186,396.38,2.18,38.4,315240,11.2
+"2021","Annual",19057,520.40,2.73,37.7,341861,11.3
+"2022","Annual",21395,707.06,3.30,36.9,374702,11.5
+"2023","Annual",20698,571.11,2.76,35.6,371732,10.9
+"2024","Annual",22294,844.79,3.79,38.4,405739,11.4
+
+Subcategory: Apparel and services
+Item: Apparel and services
+
+
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",1971,283.84,14.40,4.2,33534,13.5
+"2020","Annual",1382,201.68,14.59,2.9,23511,12.5
+"2021","Annual",1590,135.96,8.55,3.1,29268,12.5
+"2022","Annual",2310,415.81,18.00,4.0,39919,15.3
+"2023","Annual",1653,131.94,7.98,2.8,29939,10.9
+"2024","Annual",1804,210.16,11.65,3.1,33172,12.2"
+
+
+Subcategory: Transportation
+Item: Transportation
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",8509,413.60,4.86,18.0,150391,10.6
+"2020","Annual",7996,606.43,7.58,16.9,138780,10.8
+"2021","Annual",8944,607.61,6.79,17.7,160212,10.9
+"2022","Annual",10151,594.73,5.86,17.5,177898,10.8
+"2023","Annual",10784,879.35,8.15,18.5,193571,10.9
+"2024","Annual",9985,541.48,5.42,17.2,181588,10.0
+
+Subcategory: Healthcare
+Item: Healthcare
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",3354,170.42,5.08,7.1,59227,8.6
+"2020","Annual",3511,169.72,4.83,7.4,60891,9.0
+"2021","Annual",3579,141.37,3.95,7.1,64190,8.8
+"2022","Annual",3874,194.29,5.02,6.7,67848,8.6
+"2023","Annual",4052,153.23,3.78,7.0,72780,8.8
+"2024","Annual",4210,198.97,4.73,7.2,76598,9.1
+
+5 : No data reported or available in LABSTAT.
+
+
+
+Subcategory: Entertainment
+Item: Entertainment
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error", "Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",1548,85.53,5.53, 3.3,27132,6.6
+"2020","Annual",1495,120.55,8.06,3.2,25790,6.8
+"2021","Annual",1786,87.19,4.88, 3.5,32195,6.8
+"2022","Annual",1880,124.04,6.60,3.2,32836,7.1
+"2023","Annual",1896,182.00,9.60,3.3,34108,7.0
+"2024","Annual",1673,124.39,7.43,2.9,30494,6.2"
+
+Subcategory: Personal care products and services
+Item: Personal care products and services
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",727,49.49,6.80,1.5,12617,12.1
+"2020","Annual",560,46.89,8.37,1.2,9610,11.3
+"2021","Annual",728,44.01,6.05,1.4,13174,12.8
+"2022","Annual",854,67.80,7.94,1.5,14874,12.8
+"2023","Annual",1026,73.23,7.14,1.8,18499,14.5
+"2024","Annual",928,80.20,8.64,1.6,16957,12.8"
+
+
+Category: Expenditures
+Subcategory: Reading
+Item: Reading
+
+
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",52,10.16,19.35,0.1,913,7.5
+"2020","Annual",69,16.45,23.70,0.1,1193,8.0
+"2021","Annual",75(6),19.16(6),25.64(6),0.1(6),1354(6),8.9(6)
+"2022","Annual",74,15.62,21.13,0.1,1286,8.2
+"2023","Annual",43,8.31,19.35,0.1,774,4.9
+"2024","Annual",53,9.67,18.29,-(5),0.1,965,5.7"
+6 : Data have a Relative Standard Error (RSE) equal to or greater than 25 percent. These estimates should be used with caution. See www.bls.gov/cex/tables-getting-started-guide.htm#section5 for more information.
+
+
+
+Subcategory: Education
+Item: Education
+Demographics: Race of reference person
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",862,184.05,21.35,1.8,15220,8.0"
+"2020","Annual",779,85.88,11.02,1.6,13522,8.1"
+"2021","Annual",808,138.93,17.20,1.6,14491,8.8"
+"2022","Annual",712,121.22,17.02,1.2,12478,7.0"
+"2023","Annual",740,125.14,16.92,1.3,13286,6.0"
+"2024","Annual",655,118.35,18.07,1.1,11920,5.6"
+
+
+Subcategory: Tobacco products and smoking supplies
+Item: Tobacco products and smoking supplies
+
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error","Share of Total Expenditures","Aggregate Expenditure (in millions of dollars)","Share of Aggregate Expenditure"
+"2019","Annual",232,26.70,11.50,0.5,4107,9.7"
+"2020","Annual",237,21.60,9.13,0.5,4104,9.9"
+"2021","Annual",266,24.11,9.05,0.5,4772,10.5"
+"2022","Annual",371,50.11,13.52,0.6,6495,13.0"
+"2023","Annual",238,25.12,10.57,0.4,4269,8.6"
+"2024","Annual",288,43.41,15.09,0.5,5235,10.9"
+
+"Category: Assets and liabilities, and other financial info"
+Subcategory: Net change in total assets and liabilities
+Item: Net change in total assets and liabilities
+
+"Year","Period","Estimate","Standard Error","Relative Standard Error"
+"2021,Annual,-1125(6),5823.78(6),-517.79(6)
+"2022,Annual,-4604(6),4686.82(6),-101.81(6)
+"2023,Annual,-1992(6),5957.90(6),-299.07(6)
+"2024,Annual,5372(6),1616.00(6),30.08(6)
+
+6 : Data have a Relative Standard Error (RSE) equal to or greater than 25 percent. These estimates should be used with caution. See www.bls.gov/cex/tables-getting-started-guide.htm#section5 for more information.
