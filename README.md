@@ -58,7 +58,41 @@ This project is an exploration of sentiments, history, and data based on my inte
 * **Not Defamation:** This project does not seek to defame or misrepresent any organization; it strictly analyzes public text data. 
 * **Empowerment Focus:** The goal is to remind systemically undervalued people of their economic worth and to provide data-driven follow-ups to historical disparities. 
 
-**Full Project Brief:** https://docs.google.com/document/d/1Dif6Uk3NWX8G4YFCaF-I1gHXmgb7HlVRK-edFuhOYVU/edit?usp=sharing
+# Checkpoint 2
 
----
-*Produced by Noire Meyers | 2019-Present*
+**What this is:** a small, testable first version of the individual personal Project. Paste a passage from a 10-K and the
+keyword rubric tells you whether it reads as Celebrator, Tolerator, or Depreciator, and
+highlights the words that drove the call. This is the non-AI baseline that the trained
+model will later be compared against.
+
+## Run it
+
+```
+pip install streamlit pandas scikit-learn pytest
+streamlit run app/app.py          # the app
+python -m pytest                  # 12 tests
+python -m src.evaluate data/seed_passages.csv   # baseline score on labeled passages
+```
+
+## What is in here
+
+| Path | Purpose |
+|---|---|
+| `src/rubric.py` | The keyword rubric (cues come from the project brief) |
+| `src/evaluate.py` | Macro-F1 and confusion matrix against your hand labels |
+| `app/app.py` | One-page Streamlit app |
+| `data/seed_passages.csv` | The 3 examples from the brief, already labeled |
+| `data/labeling_template.csv` | Blank file for the ~100 passages still to label |
+| `src/market.py` | Market-performance skeleton: volatility math works; EDGAR revenue pull and correlation are TODO |
+| `data/companies_template.csv` | Blank file for the 12 companies (name, ticker, CIK, sector) |
+| `data/revenue_template.csv` | Blank file for annual revenue per company |
+| `tests/` | Unit tests for the rubric, the app, and the volatility math |
+
+## Not done yet 
+
+- The 12-company sample is not fixed and no 10-K passages are extracted yet.
+- Only 3 passages are labeled (the brief's examples), so the 1.00 macro-F1 on them is a
+  smoke test, not a result. The rubric cues were written from those same examples.
+- The market side is a skeleton: no revenue is pulled yet and the DEI-score-to-volatility
+  correlation is not written (see the TODOs in `src/market.py`).
+- The embedding classifier has not been trained. It needs the labeled passages first.
