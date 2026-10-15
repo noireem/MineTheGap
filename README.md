@@ -74,6 +74,10 @@ python -m pytest                  # 12 tests
 python -m src.evaluate data/seed_passages.csv   # baseline score on labeled passages
 ```
 
+**Then run all the cells in 01_data_extraction.ipynb to download data from the SEC_EDGAR_API**
+
+
+
 ## What is in here
 
 | Path | Purpose |
@@ -87,6 +91,9 @@ python -m src.evaluate data/seed_passages.csv   # baseline score on labeled pass
 | `data/companies_template.csv` | Blank file for the 12 companies (name, ticker, CIK, sector) |
 | `data/revenue_template.csv` | Blank file for annual revenue per company |
 | `tests/` | Unit tests for the rubric, the app, and the volatility math |
+
+
+
 
 ## Not done yet 
 
