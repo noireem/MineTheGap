@@ -1,0 +1,5 @@
+# Needed only for the embedding and FinBERT models (app/app.py evaluate / link).
+# Large downloads; the first run also downloads the model weights from Hugging Face.
+sentence-transformers
+transformers
+torch

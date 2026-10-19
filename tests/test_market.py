@@ -2,7 +2,34 @@ import math
 
 import pandas as pd
 
-from src.market import revenue_volatility, yoy_growth
+from src.market import parse_revenue, revenue_volatility, yoy_growth
+
+
+def _facts(*points):
+    """companyfacts-shaped JSON. Each point is (tag, start, end, val, filed)."""
+    us = {}
+    for tag, start, end, val, filed in points:
+        us.setdefault(tag, {"units": {"USD": []}})
+        us[tag]["units"]["USD"].append(
+            {"form": "10-K", "fp": "FY", "start": start, "end": end, "val": val, "filed": filed}
+        )
+    return {"facts": {"us-gaap": us}}
+
+
+def test_parse_revenue_merges_legacy_and_asc606_tags():
+    # AAPL-style: Revenues through 2017, ASC 606 from 2018. Picking only the longest
+    # tag used to drop the recent years.
+    facts = _facts(
+        ("Revenues", "2016-09-25", "2017-09-30", 229_234_000_000, "2017-11-03"),
+        ("RevenueFromContractWithCustomerExcludingAssessedTax",
+         "2017-10-01", "2018-09-29", 265_595_000_000, "2018-11-05"),
+        ("RevenueFromContractWithCustomerExcludingAssessedTax",
+         "2023-10-01", "2024-09-28", 391_035_000_000, "2024-11-01"),
+    )
+    df = parse_revenue(facts).set_index("fiscal_year")["revenue_usd"]
+    assert df.loc[2017] == 229_234_000_000
+    assert df.loc[2018] == 265_595_000_000
+    assert df.loc[2024] == 391_035_000_000
 
 
 def test_yoy_growth_values():

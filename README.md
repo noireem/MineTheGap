@@ -92,14 +92,8 @@ python -m src.evaluate data/seed_passages.csv   # baseline score on labeled pass
 | `data/revenue_template.csv` | Blank file for annual revenue per company |
 | `tests/` | Unit tests for the rubric, the app, and the volatility math |
 
+**Companies chosen:** Target, Microsoft, P&G, Tesla, Meta, Walmart, Amazon, IBM, Costco, McDonald's, JPMorgan Chase, and Apple 
 
 
+Demo Video: https://youtu.be/Ui5AKiGFgDw
 
-## Not done yet 
-
-- The 12-company sample is not fixed and no 10-K passages are extracted yet.
-- Only 3 passages are labeled (the brief's examples), so the 1.00 macro-F1 on them is a
-  smoke test, not a result. The rubric cues were written from those same examples.
-- The market side is a skeleton: no revenue is pulled yet and the DEI-score-to-volatility
-  correlation is not written (see the TODOs in `src/market.py`).
-- The embedding classifier has not been trained. It needs the labeled passages first.

@@ -1,0 +1,28 @@
+# Extraction decisions
+
+**Source:** SEC EDGAR via `sec-edgar-downloader`. Downloader filters 
+- Filed 2021 and 2025 (FY2020, FY2024): AMZN, IBM, JPM, MCD, META, TSLA, TGT, WMT
+- Filed 2020 and 2024 (FY2020, FY2024): AAPL, COST, MSFT, PG  
+
+**Fiscal year:** taken from the filing's `CONFORMED PERIOD OF REPORT`; January and February
+year-ends are assigned to the prior year (Target's year ended Feb 1, 2025 = FY2024).
+
+**Unit of analysis:** one paragraph = the text of the innermost block element (p, div, li, td).
+
+**Filter:** keyword regex (case-insensitive): diversity, inclusion, inclusive, DEI, belonging,
+racial, African American, underrepresented, Black (excluding "Black Friday & Black-Scholes").
+Length 80-2000 characters. Exact-duplicate paragraphs removed within a filing.
+Script and style tags removed. Section label (Item 1 / Item 1A) is a heuristic.
+
+**Design choice:** recall first. The filter keeps borderline passages; labeling removes noise.
+
+**Validation:** ski this in paper was unsuccessful & not needed
+Random sample of 10 passages: 3 / 10 genuinely about DEI. Duplicates found: 0.
+
+**Known limitations:** keyword filter misses DEI language that avoids these words;
+table-of-contents lines can mislead section tags; paragraphs inside tables are handled as td blocks.
+
+**Environment:** Python ____ ; pandas ____ ; beautifulsoup4 ____ ; lxml ____ ; sec-edgar-downloader ____
+(run: `pip freeze | grep -iE "pandas|beautifulsoup4|lxml|sec-edgar"`)
+Exception ignored on flushing sys.stdout:
+BrokenPipeError: [Errno 32] Broken pipe
